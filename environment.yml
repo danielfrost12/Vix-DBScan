@@ -1,0 +1,10 @@
+name: Data_Sci
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - pydotplus
+  - matplotlib
+prefix: /Users/danielfrost/opt/anaconda3/envs/Data_Sci
