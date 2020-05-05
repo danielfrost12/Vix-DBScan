@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 %matplotlib inline
 
 mypredictdata=pd.read_csv("~/Downloads/vix-daily_csv.csv")
-mypredictdata.head(5)
+
 a = []
 x = []
 y=[]
@@ -18,7 +18,6 @@ for i in range(0, len(mypredictdata)-1):
     a.append([i,mypredictdata["VIX Close"][i]])    
 
 X = a
-
 X = StandardScaler().fit_transform(X)
 
 for i in range(0,len(X)):
