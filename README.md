@@ -1,7 +1,7 @@
 # Vix-DBScan
 DBScan of Vix
 
-Used pandas, numpy, matplotlib and scikit-learn to build a Density-based spatial clustering model based off the Volatility Index.
+Used pandas, numpy, matplotlib and scikit-learn to build a density-based spatial clustering model off the Volatility Index.
 
 Result concludes most volatile trading over past 20 years happened at 2 points: 2008 and 2020.
 
