@@ -13,7 +13,7 @@ mypredictdata=pd.read_csv("~/Downloads/vix-daily_csv.csv")
 
 a = []
 x = []
-y=[]
+y = []
 for i in range(0, len(mypredictdata)-1):
     a.append([i,mypredictdata["VIX Close"][i]])    
 
